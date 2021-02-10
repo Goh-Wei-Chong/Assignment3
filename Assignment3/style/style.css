@@ -98,7 +98,7 @@
     background-image: url("../img/FireRed.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1270px 800px;
+    background-size: cover;
 }
 
 .games-container{
@@ -152,4 +152,52 @@ div.btn-submit{
 .game-one{
     display: flex;
     flex-direction: row;
+    padding-bottom: 50px;
+    
 }
+
+.mew{
+    max-width: 40%;
+    height: auto;
+    display: block;
+}
+
+.ditto{
+    width: 60%;
+    height: auto;
+    display: block;
+}
+
+.game-two{
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.content{
+  padding: 40px;
+}
+
+.content button{
+  border-radius: 25px;
+  font-size: 30px;
+  padding: 10px;
+  width: 200px;
+}
+
+.buttpad{
+  padding-top:40px;
+  width: 50%;
+  height:auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .ditto{
+        display: none;
+      }
+    
+    .mew{
+        display: none;
+      }
+  }
