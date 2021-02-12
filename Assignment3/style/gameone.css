@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(84, 82, 180, 1);
+}
+
+.container{
+    padding-top: 60px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 50px;
+    padding-top: 5px;
+}
+
+.pokemon-container{
+    min-width: 400px;
+    min-height: 400px;
+}
+
+.submit-bar button{
+    background: #A2E891;
+    border-radius: 99px;
+    width: 10%;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 45px;
+}
+
+.submit-button{
+    padding-top: 20px;
+}
+
+.rounded{
+    background: white;
+    border-radius: 99px !important;
+    height:50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.count-rounds{
+    padding-top: 20px;
+    color:white;
+    text-align: center;
+}
+

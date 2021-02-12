@@ -1,0 +1,66 @@
+body{
+    background-image: url("../img/resultstwobackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    padding-top: 30px;
+    font-size: 60px;
+}
+
+.container{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.content-container{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 2%;
+    box-shadow: 0px 10px 6px -8px rgba(0,0,0,0.75);
+}
+
+.submit-button{
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-one button{
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgba(248, 202, 85, 1);
+}
+
+.btn-two button{
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgba(182, 141, 236, 1);
+}
+
+.btn-two{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px){
+    img{
+        display: none;
+    }
+    .submit-button{
+        width: 100%;
+        padding-left: 0px;
+    }
+}
