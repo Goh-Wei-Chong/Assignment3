@@ -1,0 +1,17 @@
+body{
+    background: #CD7171;
+}
+
+.container{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.content-container{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 2%;
+    box-shadow: 0px 10px 6px -8px rgba(0,0,0,0.75);
+}
