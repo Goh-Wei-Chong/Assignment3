@@ -6,6 +6,15 @@ body{
     padding-top: 60px;
 }
 
+.poke{
+    filter: blur(30px);
+    width: 800px;
+}
+
+.pokeafter{
+    width: 800px;
+}
+
 .logo{
     display: block;
     margin-left: auto;
