@@ -1,6 +1,5 @@
 let url = 'https://pokeapi.co/api/v2/type/';
 
-
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
     var end = setInterval(function () {
@@ -13,13 +12,21 @@ function startTimer(duration, display) {
         display.textContent = minutes + ":" + seconds;
 
         if (--timer < 0) {
-            window.location = "game-two-results.html";
+            window.location = "game-two-lottie.html";
             clearInterval(end);
         }
     }, 1000);
 }
 
 window.onload = function () {
+    $(window).on('scroll', function(){
+        if($(window).scrollTop()){
+            $('nav').addClass('black');
+        }
+        else{
+            $('nav').removeClass('black');
+        }
+    });
     var twentyMinutes = 20 * 60,
         display = document.querySelector('.timer');
     startTimer(twentyMinutes, display);

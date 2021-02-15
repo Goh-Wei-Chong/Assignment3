@@ -1,4 +1,15 @@
 let url = localStorage.getItem('url');
+$(window).on('scroll', function(){
+    if($(window).scrollTop()){
+        $('nav').addClass('black');
+        $('nav').addClass('bg-black');
+        $('nav').removeClass('navbar');
+    }
+    else{
+        $('nav').removeClass('black');
+        $('nav').removeClass('bg-light');
+    }
+});
 console.log(url);
 fetch(url)
     .then(response => response.json()) 

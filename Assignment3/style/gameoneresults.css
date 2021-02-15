@@ -1,5 +1,8 @@
 body{
-    background-color: rgba(84, 82, 180, 1);
+    background-image: url("../img/resultstwobackground.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1{
@@ -10,6 +13,7 @@ h1{
 .container{
     padding-top: 80px;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .content-container{

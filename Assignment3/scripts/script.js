@@ -1,6 +1,15 @@
 let url = 'https://pokeapi.co/api/v2/pokedex/';
 
-
+$(window).on('scroll', function(){
+    if($(window).scrollTop()){
+        $('nav').addClass('black');
+        $('nav').removeClass('navbar');
+        $('nav').removeClass('bg-light');
+    }
+    else{
+        $('nav').removeClass('black');
+    }
+});
 //create a pokemon function
 function Pokemon(name, hp, attack, defense, spattack, spdefense, speed, type, ability){
     this.name = name;
