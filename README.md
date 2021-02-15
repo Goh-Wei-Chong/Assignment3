@@ -11,6 +11,9 @@ Edit later
 ### Design Process
 Edit later
 
+## Figma Link
+The link is [here](https://www.figma.com/proto/e7mGaxu2FsH8P8N41im7F9/Untitled?node-id=1%3A2&scaling=scale-down-width)
+
 ## Features
  
 ### Existing Features
