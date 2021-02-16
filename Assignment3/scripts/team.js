@@ -1,3 +1,10 @@
+
+$(document).ready(function(){
+  $(".menu h4").click(function(){
+      console.log("yes");
+      $("nav ul").toggleClass("active");
+  });
+});
 var VanillaTilt = (function () {
     'use strict';
     

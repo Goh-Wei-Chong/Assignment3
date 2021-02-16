@@ -27,6 +27,12 @@ window.onload = function () {
             $('nav').removeClass('black');
         }
     });
+    $(document).ready(function(){
+        $(".menu h4").click(function(){
+            console.log("yes");
+            $("nav ul").toggleClass("active");
+        });
+    });
     var twentyMinutes = 20 * 60,
         display = document.querySelector('.timer');
     startTimer(twentyMinutes, display);

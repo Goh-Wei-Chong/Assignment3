@@ -95,3 +95,9 @@ $(window).on('scroll', function(){
         $('nav').removeClass('black');
     }
 });
+$(document).ready(function(){
+    $(".menu h4").click(function(){
+        console.log("yes");
+        $("nav ul").toggleClass("active");
+    });
+});

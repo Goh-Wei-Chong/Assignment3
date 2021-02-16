@@ -10,6 +10,12 @@ $(window).on('scroll', function(){
         $('nav').removeClass('bg-light');
     }
 });
+$(document).ready(function(){
+    $(".menu h4").click(function(){
+        console.log("yes");
+        $("nav ul").toggleClass("active");
+    });
+  });
 console.log(url);
 fetch(url)
     .then(response => response.json()) 

@@ -10,6 +10,12 @@ $(window).on('scroll', function(){
         $('nav').removeClass('black');
     }
 });
+$(document).ready(function(){
+    $(".menu h4").click(function(){
+        console.log("yes");
+        $("nav ul").toggleClass("active");
+    });
+});
 //create a pokemon function
 function Pokemon(name, hp, attack, defense, spattack, spdefense, speed, type, ability){
     this.name = name;
