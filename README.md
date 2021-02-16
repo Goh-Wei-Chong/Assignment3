@@ -55,7 +55,7 @@ pokemon knowledge and see if they can name the pokemon by justt seeing the blurr
 - The api we used for this assignment is from here [PokéAPI](https://pokeapi.co/)
 
 ### Media
-- The pokeball logo we used was from [ClipArt](hhttps://www.clipartkey.com/view/hmmhib_pokeball-logo-png-pokemon-center/)
+- The pokeball logo we used was from [ClipArt](https://www.clipartkey.com/view/hmmhib_pokeball-logo-png-pokemon-center/)
   
 - The pokemon logo was from [Wikimedia](https://commons.wikimedia.org/wiki/File:International_Pok%C3%A9mon_logo.svg)
 - The ditto image was from [Pokemon Pets](https://www.pokemonpets.com/Ditto-Pokemon-Pokedex-132)
@@ -71,3 +71,5 @@ pokemon knowledge and see if they can name the pokemon by justt seeing the blurr
 ## Small note
 I(Wei Chong) have my github somehow connected to my other email (101.21.gohweichong@gmail.com) instead on my school email, thus this github I am using is not from my school account but a normal email. To avoid any screw ups when messing with the visual studio code to connect to my school account, I decided to continue using this account.
  
+## Github Link
+Link -  https://goh-wei-chong.github.io/ID_P02_Asgn3/
