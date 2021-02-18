@@ -66,7 +66,7 @@ pokemon knowledge and see if they can name the pokemon by justt seeing the blurr
 ### Acknowledgements
 
 - We received great inspiration for the layout design of pokémon information for this project from [PokémonDB](https://pokemondb.net/)
-
+- We learned a lot of css and javascript techniques from [online tutorials](https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog)
 
 ## Small note
 I(Wei Chong) have my github somehow connected to my other email (101.21.gohweichong@gmail.com) instead on my school email, thus this github I am using is not from my school account but a normal email. To avoid any screw ups when messing with the visual studio code to connect to my school account, I decided to continue using this account.
