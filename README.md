@@ -37,6 +37,8 @@ pokemon knowledge and see if they can name the pokemon by justt seeing the blurr
 - [Lottie](https://assets6.lottiefiles.com/temp/lf20_Tw0dyZ.json)
     - The project uses **Lottie** as a loading screen between the game pages and the game results pages.
 - Visual Studio Code was the app we used to create my website.
+- Live Share
+    - We used live share for this assignment, which is why Wei Chong is the only one that committed in this github project.  
 
 ### Techniques and Libraries
 - HTML - Our HTML page links to a [bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js), [JQuery](https://code.jquery.com/jquery-3.5.1.slim.min.js) and [Radar graphs](https://cdn.anychart.com/releases/8.7.1/js/anychart-radar.min.js) to allow the website to use classes in bootstrap in our website and allow our Javascripts to use JQuery to simplify coding.
