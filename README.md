@@ -17,7 +17,7 @@ The link is [here](https://www.figma.com/proto/e7mGaxu2FsH8P8N41im7F9/Untitled?n
 ## Features
  
 ### Existing Features
-- Name or ID feature - allows users to find the pokémon they want to search for by entering the name or ID of that certain pokémon
+- Name feature - allows users to find the pokémon they want to search for by entering the name of the pokemon, do not worry if you do not know the name of a pokemon, the website has an autofill to help finish the name of the pokemon the user tries to search for
 - Search feature - allows the user to search for the pokémon and allows the website to show them information about said pokémon
 ### Existing Game Features
 - Who's That Pokemon - This game replicates the popular game "Who's that pokemon" which was usually displayed before the advertisments of
