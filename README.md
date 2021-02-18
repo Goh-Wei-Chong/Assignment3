@@ -2,7 +2,7 @@
 
 We have created this website before, but only with a purpose of searching for information of pokemon, now we will create a website with additional features such as searching for pokemon and games to create more variety.
 
-With so many pokémon in this day and age, with 151 in the 1st generation and now over 890 with its latest new generation, many can even remember all the pokémon there are now much less the information about each and every pokémon. There are also users who are playing a pokemon game that want to search up information about their team or want to compare stats or other information between other pokemon. With this situation, we decided to create a pokédex that can search for any pokemon based on name, region and ID number. This will help to allow any user to search for the information for the pokémon and learn more about them. However, having a website just for searching seems boring and thus we chose to add games into it as well, this would make the website both informational and fun to use as we add in games such as Who's that pokemon and Pokemon Blitz!
+With so many pokémon in this day and age, with 151 in the 1st generation and now over 890 with its latest new generation, many can even remember all the pokémon there are now much less the information about each and every pokémon. There are also users who are playing a pokemon game that want to search up information about their team or want to compare stats or other information between other pokemon. With this situation, we decided to create a pokédex that can search for any pokemon based on name. This will help to allow any user to search for the information for the pokémon and learn more about them. However, having a website just for searching seems boring and thus we chose to add games into it as well, this would make the website both informational and fun to use as we add in games such as Who's that pokemon and Pokemon Blitz!
 
 Wei Chong previously created this website before for assignment 2 so we plan to have this be a upgrade to the previous website, adding new features and games to allow different variety of uses of our website. Wei Chong's assignment 2 will be the main reference to create the website.
 
@@ -17,7 +17,7 @@ The link is [here](https://www.figma.com/proto/e7mGaxu2FsH8P8N41im7F9/Untitled?n
 ## Features
  
 ### Existing Features
-- Name or ID feature - allows users to find the pokémon they want to search for by entering the name or ID of that certain pokémon
+- Name feature - allows users to find the pokémon they want to search for by entering the name of the pokemon, do not worry if you do not know the name of a pokemon, the website has an autofill to help finish the name of the pokemon the user tries to search for
 - Search feature - allows the user to search for the pokémon and allows the website to show them information about said pokémon
 ### Existing Game Features
 - Who's That Pokemon - This game replicates the popular game "Who's that pokemon" which was usually displayed before the advertisments of
@@ -37,6 +37,8 @@ pokemon knowledge and see if they can name the pokemon by justt seeing the blurr
 - [Lottie](https://assets6.lottiefiles.com/temp/lf20_Tw0dyZ.json)
     - The project uses **Lottie** as a loading screen between the game pages and the game results pages.
 - Visual Studio Code was the app we used to create my website.
+- Live Share
+    - We used live share for this assignment, which is why Wei Chong is the only one that committed in this github project.  
 
 ### Techniques and Libraries
 - HTML - Our HTML page links to a [bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js), [JQuery](https://code.jquery.com/jquery-3.5.1.slim.min.js) and [Radar graphs](https://cdn.anychart.com/releases/8.7.1/js/anychart-radar.min.js) to allow the website to use classes in bootstrap in our website and allow our Javascripts to use JQuery to simplify coding.
